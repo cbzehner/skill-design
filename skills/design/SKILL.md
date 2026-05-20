@@ -4,8 +4,7 @@ description: >-
   Route standards-first design work to the right focused guidance. Use for
   design critique, visual polish, UX flows, accessibility, content, information
   architecture, service design, precedent study, lightweight design language
-  extraction, or static HTML/CSS prototypes. Prefer this single router over the
-  legacy boring-web-design micro-skills.
+  extraction, or static HTML/CSS prototypes.
 argument-hint: "[mode or design task]"
 arguments:
   - task
@@ -47,13 +46,9 @@ If the task spans multiple modes, load the primary mode first. Load a second ref
 
 ## Handoffs
 
-- If the user asks for an app, site, tool, or product with no domain, audience, product category, or core workflow, route to `plan --interview`. Do not invent the product concept inside `design`.
+- If the intended user, purpose, or core workflow is missing, route to `plan --interview`. Do not invent product direction inside `design`.
 - If UI terminology conflicts with repo/product language, route to `domain-model audit`.
 - If a design direction needs product interrogation, route to `counsel --interview`.
 - After producing or changing UI, route to `review --as design`.
 - Before shipping UI, route to `review --as accessibility`.
 - If implementation uncovers a reproducible UI bug, route to `diagnose`.
-
-## Compatibility
-
-The old `skill-boring-web-design` skills are compatibility shims. This router is the canonical design skill going forward.
