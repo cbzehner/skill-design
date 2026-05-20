@@ -45,6 +45,15 @@ If the task spans multiple modes, load the primary mode first. Load a second ref
 - For confusing flows, start with `ux-flow`.
 - For shipping UI, pair the primary mode with `accessibility` before final review.
 
+## Handoffs
+
+- If the user asks for an app, site, tool, or product with no domain, audience, product category, or core workflow, route to `plan --interview`. Do not invent the product concept inside `design`.
+- If UI terminology conflicts with repo/product language, route to `domain-model audit`.
+- If a design direction needs product interrogation, route to `counsel --interview`.
+- After producing or changing UI, route to `review --as design`.
+- Before shipping UI, route to `review --as accessibility`.
+- If implementation uncovers a reproducible UI bug, route to `diagnose`.
+
 ## Compatibility
 
 The old `skill-boring-web-design` skills are compatibility shims. This router is the canonical design skill going forward.
