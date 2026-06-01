@@ -1,30 +1,29 @@
 {
   "name": "design",
   "version": "1.0.0",
-  "description": "Router skill for standards-first web design, UX, accessibility, content, service design, critique, precedent study, and static HTML prototypes.",
+  "description": "Route standards-first design work to the right focused guidance. Use for design critique, visual polish, UX flows, accessibility, content, information architecture, service design, precedent study, lightweight design language extraction, or static HTML/CSS prototypes.",
   "author": {
     "name": "cbzehner",
-    "email": "chris@cbzehner.com",
     "url": "https://github.com/cbzehner"
   },
   "homepage": "https://github.com/cbzehner/skill-design",
   "repository": "https://github.com/cbzehner/skill-design",
   "license": "MIT",
-  "keywords": ["design", "ux", "accessibility", "content", "service-design", "html", "skills"],
+  "keywords": [
+    "design",
+    "agent-skill"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Design",
-    "shortDescription": "Router for standards-first design workflows.",
-    "longDescription": "A compact router skill for design critique, visual standards, UX flows, accessibility, content, service design, information architecture, precedent study, design language extraction, and static HTML prototyping.",
+    "shortDescription": "Route standards-first design work to the right focused guidance. Use for design critique, visual polish, UX flows, ac...",
+    "longDescription": "Route standards-first design work to the right focused guidance. Use for design critique, visual polish, UX flows, accessibility, content, information architecture, service design, precedent study, lightweight design language extraction, or static HTML/CSS prototypes.",
     "developerName": "cbzehner",
-    "category": "Design",
-    "capabilities": ["Design", "Write"],
-    "websiteURL": "https://github.com/cbzehner/skill-design",
-    "defaultPrompt": [
-      "Critique this screen.",
-      "Prototype this as static HTML.",
-      "Improve this flow's UX."
+    "category": "Writing & Design",
+    "capabilities": [
+      "Writing",
+      "Design"
     ],
-    "brandColor": "#2F5D50"
+    "websiteURL": "https://github.com/cbzehner/skill-design"
   }
 }

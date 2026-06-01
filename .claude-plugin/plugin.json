@@ -1,10 +1,10 @@
 {
   "name": "design",
-  "description": "Router skill for standards-first web design, UX, accessibility, content, service design, critique, precedent study, and static HTML prototypes.",
+  "description": "Route standards-first design work to the right focused guidance. Use for design critique, visual polish, UX flows, accessibility, content, information architecture, service design, precedent study, lightweight design language extraction, or static HTML/CSS prototypes.",
   "version": "1.0.0",
   "author": {
     "name": "cbzehner",
-    "email": "chris@cbzehner.com"
+    "url": "https://github.com/cbzehner"
   },
   "repository": "https://github.com/cbzehner/skill-design",
   "license": "MIT"
