@@ -1,3 +1,5 @@
+> **Moved:** this skill now lives in [cbzehner/skills](https://github.com/cbzehner/skills) under `skills/design/`. This repo is archived and read-only.
+
 # Design
 
 Route design work to the right critique or production guidance. It covers visual polish, UX flows, accessibility, content, information architecture, and static HTML/CSS prototypes.
